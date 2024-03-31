@@ -1,0 +1,104 @@
+/*<!--user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.-->*/
+/*<!--блоки з короткою іфною про post - в ряд по 5 .-->*/
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.user-details{
+    font-size: 2rem;
+    color: green;
+    margin-bottom: 0;
+}
+
+.user-div {
+    display: flex;
+    justify-content: center;
+}
+
+.user-ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.user-li{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.4rem;
+    margin: 10px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+
+.inserted-ul li{
+    background-color: lightcoral;
+}
+
+
+
+
+.posts-button{
+    width: 90%;
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    font-size: 2rem;
+    font-family: "Roboto Light", sans-serif;
+
+
+}
+
+.posts-user-text-span{
+    font-size: 2rem;
+    color: darkgreen;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.div-for-post-title{
+    width: 100vw;
+    height: 50vh;
+}
+
+.ul-for-post-title{
+    width: 100vw;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.li-post-title{
+    font-size: 2rem;
+    border: 4px solid indianred;
+    transition: all 1s ease;
+}
+
+.li-post-title:hover {
+    font-size: 2.1rem;
+    text-decoration: underline;
+    background-color: lightgoldenrodyellow;
+    transition: all 1s ease;
+
+}

@@ -1,0 +1,55 @@
+/*<!--Стилизація проєкта - -->*/
+/*<!--index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.-->*/
+
+body {
+    margin: 0;
+}
+.user-global-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    box-sizing: border-box;
+
+    border: 2px dotted green;
+
+    transition: all 1.5s ease;
+}
+
+.user-global-block:hover{
+    background-color: darkseagreen;
+    border-radius: 10px;
+}
+
+.users-div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-block {
+    font-size: 2.5rem;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+
+button {
+    font-family: "Apple SD Gothic Neo", sans-serif;
+    font-weight: bold;
+    width: 13vw;
+    height: 4vh;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+    transition: all 500ms ease;
+
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 2px 2px gold;
+}

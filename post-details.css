@@ -1,0 +1,29 @@
+/*<!--post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.-->*/
+/*<!--Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)-->*/
+
+.post-details-div p {
+    font-size: 1.5rem;
+    border: 2px solid olivedrab;
+    font-family: "Arial Hebrew Scholar", sans-serif;
+}
+
+
+.comments-div {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+.comments-div p {
+    font-size: 1.5rem;
+    margin: 0;
+    border: 4px dotted saddlebrown;
+    font-family: "Apple SD Gothic Neo", sans-serif;
+    transition: all 500ms ease;
+}
+
+.comments-div p:hover {
+    font-size: 2rem;
+}
